@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Collection</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: linear-gradient(to right, #f9d5ec, #ffe4f0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #d63384;
+    }
+    .cv-container {
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .cv-card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 200px;
+      transition: transform 0.2s;
+    }
+    .cv-card:hover {
+      transform: scale(1.05);
+    }
+    .cv-card a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #d63384;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Selamat Datang di Halaman CV</h1>
+  <p>Silakan pilih salah satu:</p>
+
+  <div class="cv-container">
+    <div class="cv-card">
+      <h2>CV Tasya</h2>
+      <a href="cv_saskia/cv_saskia.html">Lihat CV</a>
+    </div>
+    <div class="cv-card">
+      <h2>CV Dela</h2>
+      <a href="cv_mirawati/CV.html">Lihat CV</a>
+    </div>
+  </div>
+
+</body>
+</html>
